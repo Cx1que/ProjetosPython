@@ -10,19 +10,19 @@ while c == "s":
     voto = int(input("DIGITE SEU VOTO: "))
 
     if voto == 1:
-        contador_Eymael = contador_Eymael +1
+        contador_Eymael += 1 
 
     elif voto == 2:
-        contador_kelmon = contador_kelmon +1
+        contador_kelmon += 1
 
     elif voto == 3:
-        contador_Daciolo = contador_Daciolo + 1
+        contador_Daciolo += 1
 
     elif voto ==4:
-        voto_nulo = voto_nulo + 1
+        voto_nulo += 1
 
     else:
-        voto_branco = voto_branco + 1
+        voto_branco += 1
     c = input("DESEJA CONTINUAR? (s/n:")
 
     qtd_votos = contador_kelmon + contador_Eymael + contador_Daciolo + voto_nulo + voto_branco
